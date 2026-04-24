@@ -1,0 +1,15 @@
+..\output\app_x-cube-ai.o: ..\User\AI-run-1-model-network-code\AI\App\app_x-cube-ai.c
+..\output\app_x-cube-ai.o: C:\app\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\app_x-cube-ai.o: C:\app\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\output\app_x-cube-ai.o: C:\app\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\output\app_x-cube-ai.o: C:\app\Keil5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\output\app_x-cube-ai.o: C:\app\Keil5\ARM\ARMCC\Bin\..\include\string.h
+..\output\app_x-cube-ai.o: ..\User\AI-run-1-model-network-code\AI\App\app_x-cube-ai.h
+..\output\app_x-cube-ai.o: ..\User\AI-run-1-model-network-code\Middlewares\ST\AI\Inc\stai.h
+..\output\app_x-cube-ai.o: C:\app\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\output\app_x-cube-ai.o: C:\app\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\output\app_x-cube-ai.o: ..\User\AI-run-1-model-network-code\Middlewares\ST\AI\Inc\ai_datatypes_defines.h
+..\output\app_x-cube-ai.o: ..\User\AI-run-1-model-network-code\Middlewares\ST\AI\Inc\ai_platform.h
+..\output\app_x-cube-ai.o: ..\User\AI-run-1-model-network-code\Middlewares\ST\AI\Inc\core_assert.h
+..\output\app_x-cube-ai.o: ..\User\AI-run-1-model-network-code\generated\network.h
+..\output\app_x-cube-ai.o: ..\User\AI-run-1-model-network-code\Middlewares\ST\AI\Inc\stai_debug.h
