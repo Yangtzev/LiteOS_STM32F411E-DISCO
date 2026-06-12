@@ -103,3 +103,8 @@
 ..\output\main.o: ..\User\AI-run-1-model-network-code\Middlewares\ST\AI\Inc\core_assert.h
 ..\output\main.o: ..\User\AI-run-1-model-network-code\generated\network.h
 ..\output\main.o: ..\User\AI-run-1-model-network-code\Middlewares\ST\AI\Inc\stai_debug.h
+..\output\main.o: ..\User\app_config.h
+..\output\main.o: ..\User\app_hw.h
+..\output\main.o: ..\User\app_button.h
+..\output\main.o: ..\User\app_modes.h
+..\output\main.o: ..\User\app_activity.h

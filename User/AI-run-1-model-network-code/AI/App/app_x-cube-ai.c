@@ -231,13 +231,21 @@ int aiRunInference(const float *input, uint32_t input_len, float *output, uint32
     return -1;
   }
 
+  printf("[AI DEBUG] aiRunInference: input_len=%u, output_len=%u\r\n", input_len, output_len);
+  printf("[AI DEBUG] aiRunInference: copying input to runtime buffer\r\n");
   memcpy((void *)stai_input[0], input, STAI_NETWORK_IN_1_SIZE_BYTES);
+  printf("[AI DEBUG] aiRunInference: input copied\r\n");
 
+  printf("[AI DEBUG] aiRunInference: invoking aiRun()\r\n");
   if (aiRun() != 0) {
+    printf("[AI DEBUG] aiRun failed\r\n");
     return -1;
   }
+  printf("[AI DEBUG] aiRun returned OK\r\n");
 
+  printf("[AI DEBUG] aiRunInference: copying output from runtime buffer\r\n");
   memcpy(output, (const void *)stai_output[0], STAI_NETWORK_OUT_1_SIZE_BYTES);
+  printf("[AI DEBUG] aiRunInference: output copied\r\n");
 
   return 0;
 }
